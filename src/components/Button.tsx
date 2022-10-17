@@ -14,7 +14,7 @@ export function Button({
   className,
   ...props
 }: ButtonProps) {
-  const Comp = asChild ? Slot : "span";
+  const Comp = asChild ? Slot : "button";
 
   return (
     <Comp
